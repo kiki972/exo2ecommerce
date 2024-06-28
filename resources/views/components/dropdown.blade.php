@@ -41,3 +41,18 @@ switch ($width) {
         </div>
     </div>
 </div>
+
+<x-dropdown align="right" width="48" contentClasses="py-1 bg-white">
+    <x-slot name="trigger">
+        <!-- Trigger element (button, link, etc.) -->
+        <button>Toggle Dropdown</button>
+    </x-slot>
+
+    <!-- Dropdown content -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+</x-dropdown>
+
