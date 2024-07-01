@@ -1,6 +1,10 @@
 <!-- resources/views/products/create.blade.php -->
 
 <x-app-layout>
+    <x-slot name="header">
+        <h2>Ajouter un nouveau produit</h2>
+    </x-slot>
+
 
     <form method="POST" action="{{ route('products.store') }}">
         @csrf

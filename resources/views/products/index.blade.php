@@ -1,11 +1,11 @@
 <!-- resources/views/products/index.blade.php -->
 
 <x-app-layout>
-    {{-- <x-slot name="header"> --}}
+    {{-- <x-slot name="content"> --}}
         <div class="container mx-auto px-4 py-8">
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Liste des produits</h2>
             <p class="text-gray-600 mb-4">Bienvenue, {{ $userName }}</p>
-            @dd(Auth::user()->isAdmin())
+            {{-- @dd(Auth::user()->isAdmin()) --}}
 
             @if (Auth::check() && Auth::user()->isAdmin())
                 <a class="bg-white hover:bg-gray-300 text-black font-bold py-1 px-2 rounded text-sm mr-2"

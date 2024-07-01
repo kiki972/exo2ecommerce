@@ -5,9 +5,9 @@
         <h2>Ajouter un nouveau produit</h2>
     </x-slot>
 
-    <div class="container">
+    {{-- <div class="container">
         {{ $slot }}
-    </div>
+    </div> --}}
 </x-app-layout>
 
 <x-app-layout>
@@ -15,9 +15,9 @@
         <h2>Modifier le produit</h2>
     </x-slot>
 
-    <div class="container">
+    {{-- <div class="container">
         {{ $slot }}
-    </div>
+    </div> --}}
 </x-app-layout>
 
 <x-app-layout>
@@ -25,7 +25,7 @@
         <h2>Détails du produit</h2>
     </x-slot>
 
-    <div class="container">
+    {{-- <div class="container">
         {{ $slot }}
-    </div>
+    </div> --}}
 </x-app-layout>

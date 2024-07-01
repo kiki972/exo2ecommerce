@@ -6,6 +6,11 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Schema; 
 use Illuminate\Support\ServiceProvider;
 
+use App\View\Components\AppLayout;
+use App\View\Components\Dropdown;
+use App\View\Components\DropdownLink;
+use App\View\Components\DropdownTrigger;
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
